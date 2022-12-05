@@ -17,3 +17,21 @@
 .list{
     padding: 20px;
 }
+
+.table-1{
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.table-header{
+    background-color: #20a9e5;
+    color: #ffffff;
+}
+
+td{
+    padding: 20px 50px 20px 0px;
+}
+
+.body-odd{
+    background-color: #b1e5f2;
+}
