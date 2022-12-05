@@ -8,3 +8,12 @@
     width: 200px;
     margin-top: 50px;
 }
+
+.photo-caption{
+    font-size: 75%;
+    margin: 0;
+}
+
+.list{
+    padding: 20px;
+}
