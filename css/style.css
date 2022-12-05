@@ -21,6 +21,7 @@
 .table-1{
     text-align: left;
     border-collapse: collapse;
+    width: 100%;
 }
 
 .table-header{
@@ -34,4 +35,8 @@ td{
 
 .body-odd{
     background-color: #b1e5f2;
+}
+
+.highlight{
+    background-color: #f1f100;
 }
