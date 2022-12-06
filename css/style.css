@@ -1,14 +1,16 @@
+* header section */
 .background-logo{
     background-image: url(../img/pattern.png);
     background-color: #4ea0ff;
-    background-size: contain;
+    background-size: 400px;
 }
 
 .logo{
     width: 200px;
-    margin-top: 50px;
 }
 
+
+/* main section */
 .photo-caption{
     font-size: 75%;
     margin: 0;
@@ -61,6 +63,8 @@ td{
     color: grey;
 }
 
+
+/* footer section */
 .text-img{
     width: 50%;
     height: 200px;

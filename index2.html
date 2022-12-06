@@ -1,0 +1,121 @@
+<!-- correzione esercizio -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Booleaner</title>
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <!-- <link rel="stylesheet" href="css/style2.css"> -->
+    <link rel="stylesheet" href="css/style3.css">
+</head>
+<body>
+
+    <!-- sezione the booleaner: img -->
+    <header class="background-logo">
+        <img src="img/logo.svg" alt="logo-the-booleaners" class="logo">
+    </header>
+    <!-- correzione: struttura header ok -->
+
+
+    <main>
+        <!-- correzione: utilizzare tag legati agli articoli -->
+        <article>
+            <header class="title">
+                <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
+                <address class="author-info">
+                    Scritto da <a href="#">The Booleaner</a> <br>
+                    <time datetime="2020-10-10">il 10/10/2020</time>
+                </address>
+            </header>
+
+            <section>
+                <figure>
+                    <img src="img/tim-1.jpg" alt="tim-1">
+                    <img src="img/tim-2.jpg" alt="tim-2">
+                    <figcaption>
+                        1st photo <br>
+                        2nd photo 
+                    </figcaption>
+                </figure>
+                <!-- sarebbe meglio avere due tag figure con due caption -->
+                <!-- ma servirebbe css avanzato -->
+
+                <p>Lorem ipsum, dolor sit amet consectetur <strong>adipisicing elit.</strong> Similique corporis reiciendis porro temporibus non eaque.
+                Molestias sequi, quidem nostrum velit, esse inventore vero ducimus, amet earum doloribus porro minus eaque!
+                Incidunt delectus exercitationem maiores ad magni doloribus fugit numquam ab porro, nam natus, voluptas omnis!
+                Eaque minima neque odit odio asperiores repellat suscipit magnam impedit aspernatur a deserunt, voluptatum iste.</p>
+                <!-- usare lorem15*4, la prima cifra rappresenta le words, la seconda le rows -->
+
+                <!-- va bene usare il tag <span>, ma non ha valore semantico -->
+                <!-- meglio usare <strong> + css oppure tag <mark> -->
+
+                <ul>
+                    <li>Lorem, ipsum dolor.
+                    </li>
+                    <li>Lorem, ipsum dolor.
+                    </li>
+                    <li>Lorem, ipsum dolor.
+                    </li>
+                </ul>
+
+
+                <table>
+                    <!-- formula tr*3>td*3 crea in auto 3 righe con 3 celle each -->
+                    <thead class="t-head">
+                        <tr>
+                            <th class="w-25">Lorem, ipsum dolor.</th>
+                            <th class="w-25">Lorem, ipsum dolor.</th>
+                            <th class="w-50">Lorem, ipsum dolor.</th>
+                        </tr>
+                    </thead>
+                    <tbody class="t-body">
+                        <tr class="bg-aqua">
+                            <td>Lorem, ipsum dolor.</td>
+                            <td>Lorem, ipsum dolor.</td>
+                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, totam!
+                            Voluptatum totam, odit laboriosam exercitationem cupiditate itaque ex sit obcaecati.
+                            Ullam explicabo blanditiis quas doloremque quasi magni, aut eos dicta!</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem, ipsum dolor.</td>
+                            <td>Lorem, ipsum dolor.</td>
+                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, totam!
+                            Voluptatum totam, odit laboriosam exercitationem cupiditate itaque ex sit obcaecati.
+                            Ullam explicabo blanditiis quas doloremque quasi magni, aut eos dicta!</td>
+                        </tr>
+                        <tr class="bg-aqua">
+                            <td>Lorem, ipsum dolor.</td>
+                            <td>Lorem, ipsum dolor.</td>
+                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, totam!
+                            Voluptatum totam, odit laboriosam exercitationem cupiditate itaque ex sit obcaecati.
+                            Ullam explicabo blanditiis quas doloremque quasi magni, aut eos dicta!</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <footer>
+                <h3>Potrebbero interessarti</h3>
+
+                <article style="background-image: url('img/monitor.jpg');" id="photo-1" class="related-post">
+                    <h3>Lorem, ipsum dolor.</h3>
+                </article>
+                <!-- usare lo style è meglio per i siti, perchè le immagini verrano prese da dei DB -->
+
+                <article id="photo-2" class="related-post">
+                    <h3>Lorem, ipsum dolor.</h3>
+                </article>
+
+            </footer>
+
+        </article>
+    </main>
+
+       
+
+
+</body>
+</html>
